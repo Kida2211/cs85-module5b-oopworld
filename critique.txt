@@ -1,0 +1,19 @@
+## Prompt Used
+Write a PHP method that gives a motivational message depending on task completion for a to-do item.
+
+## AI Code
+public function getMotivation() {
+    if ($this->isCompleted) {
+        return "Great job! Task complete.";
+    } else {
+        return "Keep going! You’ve got this!";
+    }
+}
+
+## Critique
+- ✅ Correctness: Works correctly based on task state.
+- ✅ Security: No unsafe input or external dependencies.
+- ✅ Efficiency: Simple and clean logic.
+- ✅ Style: Clear naming and readable structure.
+- 🔧 Changes Made: (student did some modification on the myobject file because of the styling at the front
+that need to change that looks better)
